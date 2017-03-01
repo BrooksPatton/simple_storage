@@ -1,0 +1,29 @@
+{
+  "name": "simple_storage",
+  "version": "1.0.0",
+  "description": "This repo is for a heroku application that will store key pair values, and allow get requests on all of them",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrooksPatton/simple_storage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrooksPatton/simple_storage/issues"
+  },
+  "homepage": "https://github.com/BrooksPatton/simple_storage#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}
