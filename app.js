@@ -10,7 +10,7 @@ app.use(bodyParser.json())
 
 app.post('/api/things', (req, res, next) => {
   if(!req.body.name) {
-    res.sendStatus(400)
+    res.status(400).json(req.body)
   }
   else {
     next()
